@@ -1,4 +1,7 @@
 export default function Experience(){
+  // when hovering over section, show add btn & add Experience (user input) to page
+  const [hover, setHover] = useState({display: 'none'});
+
   return(
     <>
       <div>
